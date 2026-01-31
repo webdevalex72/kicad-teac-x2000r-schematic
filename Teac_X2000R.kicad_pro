@@ -1,0 +1,1256 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Teac_X2000R.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "AC 0V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgb(72, 72, 72)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "AC HI Volt",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 255, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Audio 12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(72, 72, 72)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GNDA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GNDD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "Power HI 20V+",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(132, 0, 132)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "Power HI 20V-",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 153, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power HI 30V+",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power LO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(132, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 39,
+        "line_style": 3,
+        "name": "Power NEGATIVE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "TEST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 12
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": {
+      "+15V NST": [
+        "Power HI 20V-"
+      ],
+      "+15V NST_(PowerPCB)": [
+        "Power HI 20V-"
+      ],
+      "+15V STB": [
+        "Power HI 20V-"
+      ],
+      "+15V STB_(PowerPCB)": [
+        "AGND",
+        "DGND",
+        "Power HI 20V-"
+      ],
+      "+24V CAP": [
+        "Power HI 20V+"
+      ],
+      "+24V CAP_(PowerPCB)": [
+        "Power HI 20V+"
+      ],
+      "+24V STB": [
+        "Power HI"
+      ],
+      "+30V NST": [
+        "Power HI"
+      ],
+      "+35V NST": [
+        "Power HI 30V+"
+      ],
+      "+35V NST_(PowerPCB)": [
+        "Power HI 30V+"
+      ],
+      "+5V": [
+        "Power LO"
+      ],
+      "+5V STB": [
+        "Power LO"
+      ],
+      "+5V STB_(PowerPCB)": [
+        "Power LO"
+      ],
+      "+5Vo DI": [
+        "Power LO"
+      ],
+      "+6V NST": [
+        "Power LO"
+      ],
+      "+6V NST_(PowerPCB)": [
+        "Power LO"
+      ],
+      "+8": [
+        "AGND",
+        "GND",
+        "Power HI",
+        "Power LO"
+      ],
+      "-0.6V NST": [
+        "Power NEGATIVE"
+      ],
+      "-0.6V NST_(PowerPCB)": [
+        "Power NEGATIVE"
+      ],
+      "-4V NST": [
+        "Power NEGATIVE"
+      ],
+      "-4V NST_(PowerPCB)": [
+        "Power NEGATIVE"
+      ],
+      "/14": [
+        "Power LO"
+      ],
+      "/DBX LAMP PCB/1": [
+        "DGND"
+      ],
+      "/DBX SW PCB/DBX_SW_PIN_14": [
+        "Power LO"
+      ],
+      "/DBX_SW_14": [
+        "Power LO"
+      ],
+      "/DUPLI SYNC PCB/DUPLI_SYNC_PIN_7": [
+        "Power HI"
+      ],
+      "/HEADPHONE PCB/10": [
+        "Power HI"
+      ],
+      "/HEADPHONE PCB/10(11)": [
+        "Power HI"
+      ],
+      "/HEADPHONE PCB/2": [
+        "GND"
+      ],
+      "/HEADPHONE PCB/4": [
+        "GND"
+      ],
+      "/HEADPHONE PCB/Headphone_PCB_6": [
+        "Power HI"
+      ],
+      "/HEADPHONE PCB/R ch": [
+        "Power HI"
+      ],
+      "/HEADPHONE_PCB/10(11)": [
+        "Power HI"
+      ],
+      "/HEADPHONE_PCB/2": [
+        "GND"
+      ],
+      "/HEADPHONE_PCB/4": [
+        "GND"
+      ],
+      "/Headphone PCB/Headphone_PCB_6": [
+        "Power HI"
+      ],
+      "/Headphone PCB/R ch": [
+        "Power HI"
+      ],
+      "/Headphone PCB/UV Meter -": [
+        "AGND"
+      ],
+      "/Headphone_PCB_7": [
+        "AGND"
+      ],
+      "/IN-OUT PCB/1": [
+        "GND"
+      ],
+      "/IN-OUT PCB/6": [
+        "GND"
+      ],
+      "/IN-OUT PCB/8": [
+        "GND"
+      ],
+      "/IN-OUT PCB/LINE_IN_8(L)": [
+        "GND"
+      ],
+      "/IN-OUT PCB/Output_1(L)": [
+        "AGND",
+        "GND"
+      ],
+      "/METER AMPL. L": [
+        "Power HI",
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB #2/BUFFER AMPL PCB/3": [
+        "GND"
+      ],
+      "/Play Rec PCB #2/BUFFER AMPL PCB/Buffer_Amp_PIN_4": [
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB #2/PlayRec_P301_1": [
+        "AGND",
+        "GND"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_29": [
+        "Power LO"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_30": [
+        "DGND"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_31": [
+        "Power LO"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_35": [
+        "GND"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_63": [
+        "Power HI",
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_65": [
+        "Power NEGATIVE"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_71": [
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB #2/PlayRec_PIN_73": [
+        "Power NEGATIVE"
+      ],
+      "/Play Rec PCB/BUFFER AMPL PCB/3": [
+        "GND"
+      ],
+      "/Play Rec PCB/BUFFER AMPL PCB/Buffer_Amp_PIN_4": [
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB/PlayRec_PIN_35": [
+        "GND"
+      ],
+      "/Play Rec PCB/PlayRec_PIN_63": [
+        "Power HI",
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB/PlayRec_PIN_71": [
+        "Power HI 20V+"
+      ],
+      "/Play Rec PCB/PlayRec_PIN_73": [
+        "Power NEGATIVE"
+      ],
+      "/PlayRecPCB/BUFFER AMPL PCB/Buffer_Amp_PIN_4": [
+        "Power HI 20V+"
+      ],
+      "/PlayRecPCB/PlayRec_PIN_29": [
+        "Power LO"
+      ],
+      "/PlayRecPCB/PlayRec_PIN_30": [
+        "DGND"
+      ],
+      "/PlayRecPCB/PlayRec_PIN_71": [
+        "Power HI 20V+"
+      ],
+      "/PlayRecPCB/PlayRec_PIN_72": [
+        "Power NEGATIVE"
+      ],
+      "/PlayRecPCB/PlayRec_PIN_73": [
+        "Power NEGATIVE"
+      ],
+      "/PlayRec_PIN_31": [
+        "Power LO"
+      ],
+      "/PlayRec_PIN_87": [
+        "GND"
+      ],
+      "/PlayRec_PIN_88": [
+        "Power HI"
+      ],
+      "/Power_1.1/Power_1.2_P125_3": [
+        "Power HI 20V+"
+      ],
+      "/Power_1.1/Power_1.2_P125_6": [
+        "Power LO"
+      ],
+      "/Power_1.2/Power_1.2_P125_3": [
+        "Power HI 20V+"
+      ],
+      "/Power_1.2/Power_1.2_P125_6": [
+        "Power LO"
+      ],
+      "/Power_1.3/Power_1.2_P125_3": [
+        "Power HI 20V+"
+      ],
+      "/Power_1.3/Power_1.2_P125_6": [
+        "Power LO"
+      ],
+      "/Power_1/Power_1.2_P125_3": [
+        "Power HI 20V+"
+      ],
+      "/Power_1/Power_1.2_P125_6": [
+        "Power LO"
+      ],
+      "/Power_2.1/Power_2.2_P33_5": [
+        "Power LO"
+      ],
+      "/Power_2.1/Power_2.2_P34_2": [
+        "Power HI"
+      ],
+      "/Power_2.2/Power_2.2_P33_5": [
+        "Power LO"
+      ],
+      "/Power_2.2/Power_2.2_P34_2": [
+        "Power HI"
+      ],
+      "/Power_2.3/Power_2.2_P33_5": [
+        "Power LO"
+      ],
+      "/Power_2.3/Power_2.2_P34_2": [
+        "Power HI"
+      ],
+      "/Power_2/Power_2.2_P33_5": [
+        "Power LO"
+      ],
+      "/Power_2/Power_2.2_P34_2": [
+        "Power HI"
+      ],
+      "/UV Meter -": [
+        "AGND"
+      ],
+      "/VOLUME PCB/12": [
+        "GND"
+      ],
+      "/VOLUME PCB/15": [
+        "GND"
+      ],
+      "/VOLUME PCB/18": [
+        "GND"
+      ],
+      "/VOLUME PCB/3": [
+        "GND"
+      ],
+      "/VOLUME PCB/6": [
+        "GND"
+      ],
+      "/VOLUME PCB/9": [
+        "GND"
+      ],
+      "/VOLUME PCB/LINE_9(12)": [
+        "GND"
+      ],
+      "/VOLUME PCB/MIC_3(6)": [
+        "GND"
+      ],
+      "/VOLUME PCB/OutputVR_18(15)": [
+        "GND"
+      ],
+      "/VOLUME PCB/Vol_PCB_1{slash}2_3(6)": [
+        "GND"
+      ],
+      "/VOLUME PCB/Vol_PCB_1{slash}2_9(12)": [
+        "GND"
+      ],
+      "/VOLUME PCB/Vol_PCB_2{slash}2_18(15)": [
+        "GND"
+      ],
+      "0V": [
+        "AGND",
+        "DGND",
+        "GND",
+        "Power HI 20V-"
+      ],
+      "0V_(PowerPCB)": [
+        "AGND",
+        "DGND",
+        "Power HI 20V-"
+      ],
+      "GND": [
+        "GND",
+        "Power HI 20V-"
+      ],
+      "GNDPWR": [
+        "AGND",
+        "DGND",
+        "GND",
+        "Power HI 20V-"
+      ],
+      "Net-(C1-Pad1)": [
+        "AC"
+      ],
+      "Net-(C1-Pad2)": [
+        "AC"
+      ],
+      "Net-(C1-Pad2)_1": [
+        "AC"
+      ],
+      "Net-(C134-Pad2)": [
+        "Power NEGATIVE"
+      ],
+      "Net-(C2-Pad1)": [
+        "AC"
+      ],
+      "Net-(C2-Pad2)": [
+        "AC"
+      ],
+      "Net-(C381-Pad1)": [
+        "Power HI 20V+"
+      ],
+      "Net-(C4-Pad1)": [
+        "AC"
+      ],
+      "Net-(C4-Pad2)": [
+        "AC"
+      ],
+      "Net-(C90-Pad1)": [
+        "AC"
+      ],
+      "Net-(C90-Pad1)_1": [
+        "AC"
+      ],
+      "Net-(C90-Pad2)": [
+        "AC"
+      ],
+      "Net-(C90-Pad2)_1": [
+        "AC"
+      ],
+      "Net-(D143-A)": [
+        "Power NEGATIVE"
+      ],
+      "Net-(D143-A)_1": [
+        "Power NEGATIVE"
+      ],
+      "Net-(D143-A)_2": [
+        "Power NEGATIVE"
+      ],
+      "Net-(D145-K)": [
+        "Power NEGATIVE"
+      ],
+      "Net-(D147-K)": [
+        "Power HI 30V+"
+      ],
+      "Net-(D147-K)_1": [
+        "Power HI 30V+"
+      ],
+      "Net-(D147-K)_2": [
+        "Power HI 30V+"
+      ],
+      "Net-(D27-K)": [
+        "Power HI"
+      ],
+      "Net-(D308-K)": [
+        "Power HI"
+      ],
+      "Net-(J18-Pin_2)": [
+        "GND"
+      ],
+      "Net-(J301-Pin_2)": [
+        "GND"
+      ],
+      "Net-(J33-Pin_5)": [
+        "Power LO"
+      ],
+      "Net-(J33-Pin_6)": [
+        "Power LO"
+      ],
+      "Net-(J43-Pin_4)": [
+        "GND"
+      ],
+      "Net-(J43-Pin_5)": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q1-C)": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q128-C)": [
+        "Power HI 30V+"
+      ],
+      "Net-(Q128-C)_1": [
+        "Power HI 30V+"
+      ],
+      "Net-(Q128-C)_2": [
+        "Power HI 30V+"
+      ],
+      "Net-(Q14-C)": [
+        "Power HI"
+      ],
+      "Net-(Q17-C)": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q18-C)": [
+        "Default"
+      ],
+      "Net-(Q301-C)": [
+        "Default"
+      ],
+      "Net-(Q302-C)": [
+        "Default"
+      ],
+      "Net-(Q302-C)_1": [
+        "Default"
+      ],
+      "Net-(Q303-E)": [
+        "Default"
+      ],
+      "Net-(Q303-E)_1": [
+        "Default"
+      ],
+      "Net-(Q308-C)": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q308-C)_1": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q315-C)": [
+        "Power HI 20V+"
+      ],
+      "Net-(Q316-E)": [
+        "Power HI"
+      ],
+      "Net-(Q9-E)": [
+        "Power HI"
+      ],
+      "Net-(U11C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U13C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U1C-V-)": [
+        "Power HI"
+      ],
+      "Net-(U302C-V+)": [
+        "Power HI"
+      ],
+      "Net-(U303C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U305C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U306C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U310C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U310C-V-)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U327C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U5C-V+)": [
+        "Power HI 20V+"
+      ],
+      "Net-(U6C-V+)": [
+        "Power HI"
+      ],
+      "OV A_GND": [
+        "GND"
+      ],
+      "PLAYBACK_HEAD_FWD_L": [
+        "AGND",
+        "GND"
+      ],
+      "PLAYBACK_HEAD_REV_L": [
+        "AGND",
+        "GND"
+      ],
+      "R ch": [
+        "Power HI"
+      ],
+      "REMOTE SIG": [
+        "AGND",
+        "DGND",
+        "Default",
+        "GND",
+        "Power HI"
+      ],
+      "unconnected-(T1(copy)-Pad)": [
+        "AC"
+      ],
+      "unconnected-(T1-Pad)": [
+        "AC"
+      ],
+      "unconnected-(T1-Pad)_1": [
+        "AC"
+      ],
+      "unconnected-(T2-Pad)": [
+        "AC"
+      ],
+      "unconnected-(T4-Pad)": [
+        "AC"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power LO",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power LO",
+        "pattern": "+5V STB"
+      },
+      {
+        "netclass": "Power LO",
+        "pattern": "+6V NST"
+      },
+      {
+        "netclass": "TEST",
+        "pattern": "+6V dbx"
+      },
+      {
+        "netclass": "Power NEGATIVE",
+        "pattern": "-0.6V NST"
+      },
+      {
+        "netclass": "Power NEGATIVE",
+        "pattern": "-4V NST"
+      },
+      {
+        "netclass": "GNDA",
+        "pattern": "0V A_GND"
+      },
+      {
+        "netclass": "GNDD",
+        "pattern": "0V D_GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power HI 20V-",
+        "pattern": "+15V NST"
+      },
+      {
+        "netclass": "Power HI 20V-",
+        "pattern": "+15V STB"
+      },
+      {
+        "netclass": "Power HI 20V+",
+        "pattern": "+24V CAP"
+      },
+      {
+        "netclass": "Power HI 20V+",
+        "pattern": "+24V STB"
+      },
+      {
+        "netclass": "Power HI 30V+",
+        "pattern": "+35V NST"
+      },
+      {
+        "netclass": "AC HI Volt",
+        "pattern": "*10V AC"
+      },
+      {
+        "netclass": "Power LO",
+        "pattern": "+5Vo DI"
+      },
+      {
+        "netclass": "Power HI 20V-",
+        "pattern": "+18V"
+      },
+      {
+        "netclass": "Power HI 20V+",
+        "pattern": "+24.3V"
+      },
+      {
+        "netclass": "Power NEGATIVE",
+        "pattern": "-3V"
+      },
+      {
+        "netclass": "Power HI 20V+",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "AC 0V",
+        "pattern": "* 0V AC"
+      },
+      {
+        "netclass": "AC HI Volt",
+        "pattern": "*13V AC"
+      },
+      {
+        "netclass": "AC HI Volt",
+        "pattern": "*28V AC"
+      },
+      {
+        "netclass": "AC HI Volt",
+        "pattern": "*30V AC"
+      },
+      {
+        "netclass": "Audio 12V",
+        "pattern": "+12.0V"
+      },
+      {
+        "netclass": "Audio 12V",
+        "pattern": "+11.4V"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": true,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Enable",
+          "name": "Sim.Enable",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": false,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Value"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": true,
+      "intersheets_ref_prefix": "List ",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": true,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "../../../Downloads/",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "7886b68e-5897-4ac8-b08e-0f9098b7c121",
+      "Root"
+    ],
+    [
+      "079301c3-5a77-4bee-881a-81ae69d2328d",
+      "Power_1"
+    ],
+    [
+      "5b2cefe9-802f-425a-96a0-9f8ede3ae064",
+      "Power_2"
+    ],
+    [
+      "610ea1a5-bba3-497c-bf75-2385259ea924",
+      "U32 IC-6402H-325"
+    ],
+    [
+      "bf7a7bd0-cfc3-46b5-a671-53fb6ba8573a",
+      "U33 (IC-6405H-320)"
+    ],
+    [
+      "90fb9a02-52de-4915-b527-44ce9bcfbe97",
+      "PlayRecPCB"
+    ],
+    [
+      "f99830af-ddb1-4584-b70b-6bac12772fe5",
+      "IN-OUT PCB"
+    ],
+    [
+      "e7bafc77-b7c1-4e74-9bf3-16e295b29382",
+      "VOLUME PCB"
+    ],
+    [
+      "ce8a44b8-bbff-41e0-8dde-f70b375d1b34",
+      "Headphone PCB"
+    ]
+  ],
+  "text_variables": {}
+}

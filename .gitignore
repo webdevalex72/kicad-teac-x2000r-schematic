@@ -1,0 +1,71 @@
+# KiCad temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.pro
+*-save.kicad_pcb
+*~
+_autosave-*
+*.tmp
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+*-rescue.sym
+*.lib.bak
+fp-info-cache
+*.pretty/*.bak
+
+# Netlist files (since these are generated)
+*.net
+
+# Autorouter files (not used in modern KiCad)
+*.dsn
+*.ses
+
+# Gerber output files (optional - uncomment if you don't want to track them)
+# gerber/
+# *.gbr
+# *.gbrjob
+# *.drl
+# *.csv
+
+# BOM and position files (optional - uncomment if you don't want to track them)
+# *.csv
+# *bom*
+# *pos*.csv
+
+# PDF outputs (optional - uncomment if you don't want to track them)
+# *.pdf
+
+# 3D model cache
+*.wrl.cache
+*.step.cache
+
+# Python bytecode
+*.pyc
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
